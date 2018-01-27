@@ -78,4 +78,15 @@ public class Question {
 		return true;
 	}
 
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public void setCorrectAnswer(String correctAnswer) {
+		this.correctAnswer = correctAnswer;
+	}
+
+	public void setOptions(List<String> options) {
+		this.options = options;
+	}
 }
